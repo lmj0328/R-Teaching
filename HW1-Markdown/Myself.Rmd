@@ -5,26 +5,30 @@ date: "October 9, 2019"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# **About Me**
+<div style="width:150px; height:100px">
+![](C:/Users/tiany/Downloads/Li_Tianyi.jpg)
 
-## R Markdown
+## My Interests
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### Sports 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+- Such as *Golf* and *Badminton*
 
-```{r cars}
-summary(cars)
-```
+<div style="width:300px; height:200px">
+![](https://specials-images.forbesimg.com/imageserve/485187122/960x0.jpg "Golf")
+</div>
 
-## Including Plots
+### Baking 
 
-You can also embed plots, for example:
+- Making cakes occasionally
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+<div style="width:300px; height:200px">
+![](https://i.ytimg.com/vi/uWZvgBs7MsI/maxresdefault.jpg "Cake")
+</div>
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+#### My Favorite Quote
+
+>If you don't have any discomfort in your life, how do you know when you feel good?
+
+

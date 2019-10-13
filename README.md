@@ -18,4 +18,11 @@ Teaching Tim R
  - Have a list that contains your interest
  - Use Block quote to quotate your favorite quote?
  
+
+### HW1 - R Basic
+
+**Instruction**: 
+
+ - 2*2=
+ - 1+3=
  

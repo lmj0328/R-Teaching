@@ -7,7 +7,7 @@ output: html_document
 
 # **About Me**
 <div style="width:150px; height:100px">
-![](C:/Users/tiany/Downloads/Li_Tianyi.jpg)
+![](img/tianyiProfilePic.jpg)
 
 ## My Interests
 

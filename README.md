@@ -19,3 +19,10 @@ Teaching Tim R
  - Use Block quote to quotate your favorite quote?
  
  
+**Requirement**
+
+ - Add a photo of yourself
+ - Write two different sizes of titles
+ - Have bold text, italics text at least once
+ - Have a list that contains your interest
+ - Use Block quote to quotate your favorite quote?

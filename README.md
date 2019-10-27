@@ -32,3 +32,13 @@ Teaching Tim R
 
  - The photo of the movie size cannot be bigger than 1MB
  
+
+
+### HW3 - RBasics
+
+**Instruction**:
+
+- Following the requirements in RBasicsVariableOperations.R.
+- Procedures has been marked using comment
+- Finish before 10/30 and push to the master branch
+

@@ -43,16 +43,32 @@ Teaching Tim R
 - Finish before 10/30 and push to the master branch
 
 
+
 ### HW4 - RFunction 
 
 **Instruction**:
 
 - Following the instructions in RBasicFunction.R.You may found the first two questions exactly same as HW3. Feel free to copy it over, as you may need it for later usage
 - Procedures has been marked using comment
-- Finish before 12/6 and push to the master branch
+- Finish before 11/6 and push to the master branch
 
 **Others**:
 
 - Read Chapter 6 Functions
 - Read Chapter 7 Vectors
+
+
+
+### HW5 - Vectors
+
+**Instruction**:
+
+- Following the instructions in RVectors.R.
+- Procedures has been marked using comment
+- Finish before 11/16 and push to the master branch
+
+**Others**:
+
+- Read Chapter 7 Vectors
+- Read Chapter 8 Functions
 

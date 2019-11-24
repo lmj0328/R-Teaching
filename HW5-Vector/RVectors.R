@@ -20,7 +20,7 @@ math_grades <- c(60,70,80,90,100)
 
 # Create a vector `spanish_grades` with 5 hypothetical grades (0 - 100) in a Spanish course (that correspond to the 5 names above)
 
-spanish_grades <- c(60,70,80,90,100)
+spanish_grades <- c(90,30,90,100,80)
 
 ## Create a data.frame `students` by combining your vectors `first_names`, `math_grades`, and `spanish_grades`
 
@@ -38,18 +38,44 @@ num_courses <- ncol(students)
 ## math_grades and spanish_grades.  Note: use the variables inside the dataframe (like "students$math_grade")
 ## not the ones in your workspace.
 
-grade_diff <- students$math_grades - students$spanish_grades
+## Option 3
+students$grade_diff <- students$math_grades - students$spanish_grades
+    ## Option 1
+    ## grade_diff <- students$math_grades - students$spanish_grades
+      ## vector           vector                  vector
+    ## students <- data.frame(first_names, math_grades, spanish_grades, grade_diff, stringsAsFactors = FALSE)
+     
+    ## Option 2 
+    ## grade_diff <- students$math_grades - students$spanish_grades
+    ## students$grade_diff <- grade_diff
+    
 
 # Add another column `better_at_math` as a boolean (TRUE/FALSE) variable that indicates that a student got a better grade in math
 
-if (grade_diff>0){
-  better_at_math = TRUE
-}
-else{
-  better_at_math = FALSE
-}
+## students$grade_diff > 0 <-- condition = TRUE
+## students$grade_diff < 0 <-- condition = FALSE
+students$better_at_math <- students$grade_diff > 0
+      # create a vector "better at math" as a boolean....
+      ## if (students$grade_diff > 0){
+      ##   students$better_at_math = TRUE
+      ## } else {
+      ##  students$better_at_math = FALSE
+      ## }
 ## Compute a variable `num_better_at_math` that is the number (i.e., one numeric value) of students better at math
+# num_better_at_math <- students$better_at_math[TRUE]
+# num_better_at_math <- students$better_at_math[FALSE]
+# num_better_at_math <- students$better_at_math[students$better_at_math == TRUE]
+# num_better_at_math <- length(students$better_at_math[students$better_at_math == TRUE])
+# num_better_at_math <- length(students$grade_diff[students$grade_diff > 0])
+num_better_at_math <- length(students$first_names[students$better_at_math])
 
 
 ## Write your `students` data.frame to a new .csv file inside your data/ directory with the filename `grades.csv`.
 ## Make sure not to write row names.
+
+
+
+
+
+
+

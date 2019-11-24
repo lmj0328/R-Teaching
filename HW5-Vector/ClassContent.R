@@ -77,7 +77,7 @@ shoe_sizes * 2
 shoe_sizes == 6.5
 
 colors == "red" #vector contains logical
-colors[colors == "red"] #vector
+if_red <- colors[colors == "red"] #vector
 
 
 #### 7.3.4 Named Vectors and Character Indexing

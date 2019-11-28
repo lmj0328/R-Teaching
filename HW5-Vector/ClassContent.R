@@ -121,18 +121,22 @@ v3 <- v2 + v2  # returns 2, 4, 6, 8, 10
 v4 <- (v1 + v2) / (v1 + v1)  # returns 1, 1.5, 2, 2.5, 3
 
 savedVector <- c("a", "b","c")
+
+################### LIST #########################
+
 savedList <- list("a", "b", "c")
+#savedList[c] 
 
 #savedProjects <- list(a = "25", b = 30)
 #savedProjects <- list(a = "25", b = 30, c = TRUE, 20 = "FALSE")
 #savedProjects <- list(a = "25", b = 30, c = TRUE, 20 = FALSE)
 savedProjects <- list(a = "25", b = 30, c = TRUE, twenty = "FALSE")
 
+savedProjects$a ## "25"
+savedProjects$b ## 30
+savedProjects[["c"]] ## TRUE
+savedProjects[[c]] ## NULL
 
-savedProjects$a ## 25
-savedProjects$b ## NULL
-savedProjects[["c"]] ## NULL
-savedProjects[[c]] ## NULL 
-savedProjects$twenty ## NULL
+savedProjects$twenty ## "FALSE"
 
 

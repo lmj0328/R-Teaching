@@ -55,6 +55,7 @@ students$grade_diff <- students$math_grades - students$spanish_grades
 
 ## students$grade_diff > 0 <-- condition = TRUE
 ## students$grade_diff < 0 <-- condition = FALSE
+
 students$better_at_math <- students$grade_diff > 0
       # create a vector "better at math" as a boolean....
       ## if (students$grade_diff > 0){
@@ -68,12 +69,12 @@ students$better_at_math <- students$grade_diff > 0
 # num_better_at_math <- students$better_at_math[students$better_at_math == TRUE]
 # num_better_at_math <- length(students$better_at_math[students$better_at_math == TRUE])
 # num_better_at_math <- length(students$grade_diff[students$grade_diff > 0])
+
 num_better_at_math <- length(students$first_names[students$better_at_math])
 
 
 ## Write your `students` data.frame to a new .csv file inside your data/ directory with the filename `grades.csv`.
 ## Make sure not to write row names.
-
 
 write.csv(students,'Data/grades.csv', row.names = FALSE)
 

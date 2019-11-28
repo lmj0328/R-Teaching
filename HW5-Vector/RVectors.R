@@ -4,6 +4,7 @@
 
 ## Before you get started, make sure to set you are in the right working directory.
 
+setwd("/Users/tiany/Desktop/R/R-Teaching/HW5-Vector/")
 
 ## If needed, set it here.  You may use tilde (~) to refer to your home directory.
 
@@ -74,7 +75,7 @@ num_better_at_math <- length(students$first_names[students$better_at_math])
 ## Make sure not to write row names.
 
 
-
+write.csv(students,'Data/grades.csv', row.names = FALSE)
 
 
 
